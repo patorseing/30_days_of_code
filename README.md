@@ -11,7 +11,7 @@
 
 ```
 make Solution
-./Solution
+./Solution.exe
 ```
 
 ## for Java
