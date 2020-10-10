@@ -14,6 +14,22 @@ make Solution
 ./Solution.exe
 ```
 
+**problem:** hardly to add library
+
+### How to add library
+
+```
+brew install gcc
+gcc --version
+cd /Library/Developer/CommandLineTools/usr/bin
+cd ../include
+
+//if bits is not created
+sudo mkdir bits
+
+sudo cd -rf <project path>/library/* /Library/Developer/CommandLineTools/usr/include/*
+```
+
 ## for Java
 ```
 javac Solution.java
