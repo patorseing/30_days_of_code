@@ -27,7 +27,7 @@ cd ../include
 //if bits is not created
 sudo mkdir bits
 
-sudo cd -rf <project path>/library/* /Library/Developer/CommandLineTools/usr/include/*
+sudo cp -rf <project path>/library/* /Library/Developer/CommandLineTools/usr/include/*
 ```
 
 ## for Java
