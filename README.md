@@ -14,7 +14,18 @@ make Solution
 ./Solution.exe
 ```
 
-**problem:** hardly to add library
+**problem:**
+- hardly to add library
+- Week 7: cannot run code that hackerrate give.
+
+```
+c++     Solution.cpp   -o Solution
+Solution.cpp:38:79: error: expected expression
+  string::iterator new_end = unique(input_string.begin(), input_string.end(), [](const char &x, const char &y) {
+                                                                              ^
+1 error generated.
+make: *** [Solution] Error 1
+```
 
 ### How to add library
 
