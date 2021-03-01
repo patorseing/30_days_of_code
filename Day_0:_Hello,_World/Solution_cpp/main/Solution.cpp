@@ -3,7 +3,16 @@
 #include <vector>
 #include <iostream>
 #include <algorithm>
+
+#include "Solution.hpp"
+
+// string concat(string str1, string str2)
+// {
+// 	return str1+"\n"+str2;
+// }
+
 using namespace std;
+
 int main() {
     // Declare a variable named 'input_string' to hold our input.
     string input_string;
@@ -11,11 +20,14 @@ int main() {
     // Read a full line of input from stdin (cin) and save it to our variable, input_string.
     getline(cin, input_string);
 
-    // Print a string literal saying "Hello, World." to stdout using cout.
-    cout << "Hello, World." << endl;
+    string result = concat("Hello, World.", input_string);
 
-    // TODO: Write a line of code here that prints the contents of input_string to stdout.
-    cout << input_string << endl;
+    // Print a string literal saying "Hello, World." to stdout using cout.
+    // cout << "Hello, World." << endl;
+
+    // // TODO: Write a line of code here that prints the contents of input_string to stdout.
+    // cout << input_string << endl;
+    cout << result << endl;
 
     return 0;
 }
