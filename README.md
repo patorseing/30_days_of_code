@@ -2,13 +2,15 @@
 
 ## Spec
 
-- C++
-- java 11
-- python 3
-- Apple Swift version 5.3
-- go version go1.15.2 darwin/amd64
+* [C++](##-for-C/C++)
+* [java 11](##-for-Java)
+* [python 3](##-for-Python)
+* [Apple Swift version 5.3](##-for-Swift)
+* [go version go1.15.2 darwin/amd64](##-for-Go)
 
 ## for C/C++
+
+[<< Back](##-Spec)
 
 ```bash
 cd Solution_cpp/main
@@ -26,8 +28,8 @@ bazel test solution-test
 
 **problem:**
 
-- hardly to add library
-- Week 7: cannot run code that hackerrate give.
+* hardly to add library
+* Week 7: cannot run code that hackerrate give.
 
 ```bash
 c++     Solution.cpp   -o Solution
@@ -54,6 +56,8 @@ sudo cp -rf <project path>/library/* /Library/Developer/CommandLineTools/usr/inc
 
 ## for Java
 
+[<< Back](##-Spec)
+
 ```bash
 javac Solution.java
 java Solution
@@ -61,17 +65,23 @@ java Solution
 
 ## for python
 
+[<< Back](##-Spec)
+
 ```bash
 python Solution.py
 ```
 
 ## for swift
 
+[<< Back](##-Spec)
+
 ```bash
 swift Solution.swift
 ```
 
 ## for GO
+
+[<< Back](##-Spec)
 
 ```bash
 cd Solution_go
