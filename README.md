@@ -12,6 +12,7 @@
 * [Ruby](##-for-Ruby)
 * [VB.NET](##-for-VB.NET)
 * [Kotlin](##-for-Kotlin)
+* [Scala](##-for-Scala)
 
 ## for C/C++
 
@@ -141,6 +142,13 @@ go run main.go
 ```
 
 ## for Kotlin
+
+[<< Back](##-Spec)
+
+```bash
+```
+
+## for Scala
 
 [<< Back](##-Spec)
 
