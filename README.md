@@ -5,8 +5,13 @@
 * [C++](##-for-C/C++)
 * [java 11](##-for-Java)
 * [python 3](##-for-Python)
+* [javascript v10.15.3](##-for-Javascript-(node.js))
 * [Apple Swift version 5.3](##-for-Swift)
 * [go version go1.15.2 darwin/amd64](##-for-Go)
+* [Rust](##-for-Rust)
+* [Ruby](##-for-Ruby)
+* [VB.NET](##-for-VB.NET)
+* [Kotlin](##-for-Kotlin)
 
 ## for C/C++
 
@@ -90,6 +95,13 @@ alias junit="java org.junit.runner.JUnitCore"
 python Solution.py
 ```
 
+## for Javascript (node.js)
+
+[<< Back](##-Spec)
+
+```bash
+```
+
 ## for swift
 
 [<< Back](##-Spec)
@@ -105,4 +117,32 @@ swift Solution.swift
 ```bash
 cd Solution_go
 go run main.go
+```
+
+## for Rust
+
+[<< Back](##-Spec)
+
+```bash
+```
+
+## for Ruby
+
+[<< Back](##-Spec)
+
+```bash
+```
+
+## for VB.NET
+
+[<< Back](##-Spec)
+
+```bash
+```
+
+## for Kotlin
+
+[<< Back](##-Spec)
+
+```bash
 ```
