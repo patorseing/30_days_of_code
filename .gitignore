@@ -57,3 +57,4 @@ hs_err_pid*
 
 */*/bazel-*
 */*/build/*
+*/*/__pycache__

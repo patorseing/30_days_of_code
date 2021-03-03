@@ -30,6 +30,7 @@ mv Solution Solution.exe
 ```bash
 cd Solution_cpp/main
 bazel test solution-test
+bazel run //main:solution
 ```
 
 **problem:**
@@ -93,6 +94,8 @@ alias junit="java org.junit.runner.JUnitCore"
 [<< Back](##-Spec)
 
 ```bash
+cd Solution_py
+python -m unittest
 python Solution.py
 ```
 

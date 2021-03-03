@@ -101,5 +101,11 @@
     "stop_token": "cpp",
     "filesystem": "cpp"
   },
-  "C_Cpp.errorSquiggles": "Disabled"
+  "C_Cpp.errorSquiggles": "Disabled",
+  "python.testing.pytestArgs": [
+    "Day_0:_Hello,_World"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.nosetestsEnabled": false,
+  "python.testing.pytestEnabled": true
 }

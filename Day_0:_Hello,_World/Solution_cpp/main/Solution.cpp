@@ -6,9 +6,9 @@
 
 #include "Solution.hpp"
 
-// string concat(string str1, string str2)
+// string concat(string str)
 // {
-// 	return str1+"\n"+str2;
+// 	return "Hello, World. \n"+str;
 // }
 
 using namespace std;
@@ -20,7 +20,7 @@ int main() {
     // Read a full line of input from stdin (cin) and save it to our variable, input_string.
     getline(cin, input_string);
 
-    string result = concat("Hello, World.", input_string);
+    string result = concat(input_string);
 
     // Print a string literal saying "Hello, World." to stdout using cout.
     // cout << "Hello, World." << endl;
