@@ -40,7 +40,7 @@ Solution.cpp:38:79: error: expected expression
 make: *** [Solution] Error 1
 ```
 
-### How to add library
+### How to add library (C++)
 
 ```bash
 brew install gcc
@@ -60,7 +60,26 @@ sudo cp -rf <project path>/library/* /Library/Developer/CommandLineTools/usr/inc
 
 ```bash
 javac Solution.java
+junit Solution // for unit test
 java Solution
+```
+
+### How to add library (java)
+
+```bash
+//download
+//Ex junit: https://github.com/junit-team/junit4/wiki/Download-and-Install
+cp ~/Download/*.jar /Library/Java/Extensions/
+```
+
+#### if you not setup zsh
+
+```zsh
+//zsh
+export JUNIT_HOME=/Library/Java/Extensions
+export PATH=$PATH:$JUNIT_HOME
+export CLASSPATH=$CLASSPATH:$JUNIT_HOME/junit-4.13.2.jar:$JUNIT_HOME/hamcrest-core-1.3.jar
+alias junit="java org.junit.runner.JUnitCore"
 ```
 
 ## for python

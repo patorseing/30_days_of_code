@@ -1,8 +1,12 @@
+import static org.junit.Assert.assertEquals;
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
+
+import org.junit.Test;
 
 public class Solution {
 	public static void main(String[] args) {
@@ -23,5 +27,10 @@ public class Solution {
 		// TODO: Write a line of code here that prints the contents of inputString to
 		// stdout.
 		System.out.println(inputString);
+	}
+
+	@Test
+	public void testMain(){
+		assertEquals(11, 11);
 	}
 }
