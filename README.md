@@ -111,13 +111,7 @@ python Solution.py
 [<< Back](##-Spec)
 
 ```bash
-# swift Solution.swift
-mkdir Solution_swift
-cd Solution_swift
-swift package init --type executable
-swift build
-swift run
-swift test
+swift Solution.swift
 ```
 
 ## for GO
