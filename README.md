@@ -104,6 +104,11 @@ python Solution.py
 [<< Back](##-Spec)
 
 ```bash
+mkdir Solution_node
+cd Solution_node
+npm init -y
+code index.js
+npm start
 ```
 
 ## for swift
@@ -114,12 +119,16 @@ python Solution.py
 swift Solution.swift
 ```
 
+** run with xcode
+
 ## for GO
 
 [<< Back](##-Spec)
 
 ```bash
 cd Solution_go
+go test
+go test <case>
 go run main.go
 ```
 
