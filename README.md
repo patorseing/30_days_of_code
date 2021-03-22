@@ -137,6 +137,15 @@ go run main.go
 [<< Back](##-Spec)
 
 ```bash
+cargo new Solution_rust
+cd Solution_rust
+
+cargo build
+./target/debug/Solution_rust
+
+cargo run
+
+cargo check
 ```
 
 ## for Ruby
