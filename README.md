@@ -148,6 +148,8 @@ cargo run
 cargo check
 ```
 
+<https://learning-rust.github.io/docs/a1.why_rust.htm>
+
 ## for Ruby
 
 [<< Back](##-Spec)
