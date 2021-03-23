@@ -9,7 +9,6 @@
 * [Apple Swift version 5.3](##-for-Swift)
 * [go version go1.15.2 darwin/amd64](##-for-Go)
 * [Rust](##-for-Rust)
-* [Ruby](##-for-Ruby)
 * [VB.NET](##-for-VB.NET)
 * [Kotlin](##-for-Kotlin)
 * [Scala](##-for-Scala)
@@ -149,13 +148,6 @@ cargo check
 ```
 
 <https://learning-rust.github.io/docs/a1.why_rust.htm>
-
-## for Ruby
-
-[<< Back](##-Spec)
-
-```bash
-```
 
 ## for VB.NET
 
