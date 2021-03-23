@@ -147,7 +147,7 @@ cargo run
 cargo check
 ```
 
-<https://learning-rust.github.io/docs/a1.why_rust.htm>
+<https://learning-rust.github.io/docs/a1.why_rust.html>
 
 ## for VB.NET
 
