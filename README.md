@@ -9,9 +9,6 @@
 * [Apple Swift version 5.3](##-for-Swift)
 * [go version go1.15.2 darwin/amd64](##-for-Go)
 * [Rust](##-for-Rust)
-* [VB.NET](##-for-VB.NET)
-* [Kotlin](##-for-Kotlin)
-* [Scala](##-for-Scala)
 
 ## for C/C++
 
@@ -118,7 +115,9 @@ npm start
 swift Solution.swift
 ```
 
-** run with xcode
+** run with xcode\
+tutorial
+<https://youtu.be/TSbzwqGzYC0>
 
 ## for GO
 
@@ -128,6 +127,8 @@ swift Solution.swift
 cd Solution_go
 go test
 go test <case>
+go test -cover -v
+go test -cover -v -covermode=count -coverprofile=count.out fmt
 go run main.go
 ```
 
@@ -148,24 +149,3 @@ cargo check
 ```
 
 <https://learning-rust.github.io/docs/a1.why_rust.html>
-
-## for VB.NET
-
-[<< Back](##-Spec)
-
-```bash
-```
-
-## for Kotlin
-
-[<< Back](##-Spec)
-
-```bash
-```
-
-## for Scala
-
-[<< Back](##-Spec)
-
-```bash
-```
