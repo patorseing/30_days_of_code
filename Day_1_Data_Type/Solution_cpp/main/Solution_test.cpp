@@ -12,8 +12,8 @@ TEST(ConcatShould, ReturnConcat)
 
 TEST(PlusIntShould, ReturnPlusInt)
 {
-  int expected = 8;
-  int actual = plusInt(4);
+  int expected = 16;
+  int actual = plusInt(12);
   EXPECT_EQ(expected, actual);
 }
 

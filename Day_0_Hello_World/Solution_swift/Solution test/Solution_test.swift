@@ -22,7 +22,7 @@ class Solution_test: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         let solution = Solution()
-        XCTAssertEqual("Hello, World. \nNapatchol", solution.concat(str: "Napatchol"))
+        XCTAssertEqual("Hello, World. \nWelcome to 30 Days of Code!", solution.concat(str: "Welcome to 30 Days of Code!"))
     }
 
     func testPerformanceConcat() throws {
@@ -30,7 +30,7 @@ class Solution_test: XCTestCase {
         let solution = Solution()
         measure {
             // Put the code you want to measure the time of here.
-            let result = solution.concat(str: "Napatchol")
+            let result = solution.concat(str: "Welcome to 30 Days of Code!")
             print(result)
         }
     }

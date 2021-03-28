@@ -21,6 +21,6 @@ mod tests {
 
     #[test]
     fn test_greet() {
-        assert_eq!("Hello, World.\nnapatchol", concat("napatchol".to_owned()));
+        assert_eq!("Hello, World.\nWelcome to 30 Days of Code!", concat("Welcome to 30 Days of Code!".to_owned()));
     }
 }

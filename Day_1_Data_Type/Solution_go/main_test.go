@@ -6,7 +6,7 @@ import (
 
 func TestPlusInt(t *testing.T) {
 	t.Run("4", func(t *testing.T) {
-		if plusInt(4) != 8 {
+		if plusInt(12) != 16 {
 			t.Fatal("fail!")
 		}
 	})
@@ -14,7 +14,7 @@ func TestPlusInt(t *testing.T) {
 
 func TestPlusFloat(t *testing.T) {
 	t.Run("4.0", func(t *testing.T) {
-		if plusInt(4) != 8 {
+		if plusFloat(4.0) != 8.0 {
 			t.Fatal("fail!")
 		}
 	})
