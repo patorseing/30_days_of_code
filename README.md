@@ -146,6 +146,8 @@ cargo build
 cargo run
 
 cargo check
+
+cargo test
 ```
 
 <https://learning-rust.github.io/docs/a1.why_rust.html>
