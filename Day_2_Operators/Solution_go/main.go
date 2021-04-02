@@ -11,11 +11,20 @@ import (
 )
 
 // Complete the solve function below.
-func solve(meal_cost float64, tip_percent int32, tax_percent int32) {
-	var tip = meal_cost * (float64(tip_percent) / 100)
-	var tax = meal_cost * (float64(tax_percent) / 100)
-	var totalCost = meal_cost + tip + tax
+func solve(meal_cost float64, tip_percent int32, tax_percent int32) float64 {
+	var tip = calCost(meal_cost, tip_percent)
+	var tax = calCost(meal_cost, tax_percent)
+	var totalCost = calTotalCost(meal_cost, tip, tax)
 	fmt.Println(math.Round(totalCost))
+	return totalCost
+}
+
+func calCost(meal_cost float64, percent int32) float64 {
+	return math.Round(meal_cost*(float64(percent)/100)*100) / 100
+}
+
+func calTotalCost(meal_cost float64, tip float64, tax float64) float64 {
+	return math.Round(meal_cost + tip + tax)
 }
 
 func main() {
