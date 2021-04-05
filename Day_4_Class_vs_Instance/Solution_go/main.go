@@ -6,9 +6,16 @@ type person struct {
 	age int
 }
 
+func CheckAge(initialAge int) bool {
+	if initialAge < 0 {
+		return true
+	}
+	return false
+}
+
 func (p person) NewPerson(initialAge int) person {
 	//Add some more code to run some checks on initialAge
-	if initialAge < 0 {
+	if CheckAge(initialAge) {
 		fmt.Println("Age is not valid, setting age to 0.")
 		p.age = 0
 	} else {
@@ -17,17 +24,19 @@ func (p person) NewPerson(initialAge int) person {
 	return p
 }
 
-func (p person) amIOld() {
+func (p person) amIOld() string {
 	//Do some computation in here and print out the correct statement to the console
+	str := ""
 	if p.age < 0 {
-		fmt.Println("Age is not valid, setting age to 0.")
+		str = "Age is not valid, setting age to 0."
 	} else if p.age < 13 {
-		fmt.Println("You are young.")
+		str = "You are young."
 	} else if p.age >= 13 && p.age < 18 {
-		fmt.Println("You are a teenager.")
+		str = "You are a teenager."
 	} else {
-		fmt.Println("You are old.")
+		str = "You are old."
 	}
+	return str
 }
 
 func (p person) yearPasses() person {
@@ -45,11 +54,11 @@ func main() {
 		fmt.Scan(&age)
 		p := person{age: age}
 		p = p.NewPerson(age)
-		p.amIOld()
+		fmt.Println(p.amIOld())
 		for j := 0; j < 3; j++ {
 			p = p.yearPasses()
 		}
-		p.amIOld()
+		fmt.Println(p.amIOld())
 		fmt.Println()
 	}
 }
