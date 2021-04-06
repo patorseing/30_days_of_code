@@ -14,18 +14,18 @@ func TestPersonCaseI(t *testing.T) {
 		}
 	})
 
-	t.Run("amIOld", func(t *testing.T) {
-		if p.amIOld() != "You are young." {
-			t.Fatal("fail!", p.amIOld())
+	t.Run("amIOldLogic", func(t *testing.T) {
+		if p.amIOldLogic() != "You are young." {
+			t.Fatal("fail!", p.amIOldLogic())
 		}
 	})
 
-	t.Run("amIOldLast", func(t *testing.T) {
+	t.Run("amIOldLogicLast", func(t *testing.T) {
 		for j := 0; j < 3; j++ {
 			p = p.yearPasses()
 		}
-		if p.amIOld() != "You are young." {
-			t.Fatal("fail!", p.amIOld())
+		if p.amIOldLogic() != "You are young." {
+			t.Fatal("fail!", p.amIOldLogic())
 		}
 	})
 }
@@ -40,18 +40,18 @@ func TestPersonCaseII(t *testing.T) {
 		}
 	})
 
-	t.Run("amIOld", func(t *testing.T) {
-		if p.amIOld() != "You are young." {
-			t.Fatal("fail!", p.amIOld())
+	t.Run("amIOldLogic", func(t *testing.T) {
+		if p.amIOldLogic() != "You are young." {
+			t.Fatal("fail!", p.amIOldLogic())
 		}
 	})
 
-	t.Run("amIOldLast", func(t *testing.T) {
+	t.Run("amIOldLogicLast", func(t *testing.T) {
 		for j := 0; j < 3; j++ {
 			p = p.yearPasses()
 		}
-		if p.amIOld() != "You are a teenager." {
-			t.Fatal("fail!", p.amIOld())
+		if p.amIOldLogic() != "You are a teenager." {
+			t.Fatal("fail!", p.amIOldLogic())
 		}
 	})
 }
@@ -66,18 +66,18 @@ func TestPersonCaseIII(t *testing.T) {
 		}
 	})
 
-	t.Run("amIOld", func(t *testing.T) {
-		if p.amIOld() != "You are a teenager." {
-			t.Fatal("fail!", p.amIOld())
+	t.Run("amIOldLogic", func(t *testing.T) {
+		if p.amIOldLogic() != "You are a teenager." {
+			t.Fatal("fail!", p.amIOldLogic())
 		}
 	})
 
-	t.Run("amIOldLast", func(t *testing.T) {
+	t.Run("amIOldLogicLast", func(t *testing.T) {
 		for j := 0; j < 3; j++ {
 			p = p.yearPasses()
 		}
-		if p.amIOld() != "You are old." {
-			t.Fatal("fail!", p.amIOld())
+		if p.amIOldLogic() != "You are old." {
+			t.Fatal("fail!", p.amIOldLogic())
 		}
 	})
 }
@@ -92,18 +92,18 @@ func TestPersonCaseIV(t *testing.T) {
 		}
 	})
 
-	t.Run("amIOld", func(t *testing.T) {
-		if p.amIOld() != "You are old." {
-			t.Fatal("fail!", p.amIOld())
+	t.Run("amIOldLogic", func(t *testing.T) {
+		if p.amIOldLogic() != "You are old." {
+			t.Fatal("fail!", p.amIOldLogic())
 		}
 	})
 
-	t.Run("amIOldLast", func(t *testing.T) {
+	t.Run("amIOldLogicLast", func(t *testing.T) {
 		for j := 0; j < 3; j++ {
 			p = p.yearPasses()
 		}
-		if p.amIOld() != "You are old." {
-			t.Fatal("fail!", p.amIOld())
+		if p.amIOldLogic() != "You are old." {
+			t.Fatal("fail!", p.amIOldLogic())
 		}
 	})
 }

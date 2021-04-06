@@ -24,7 +24,7 @@ func (p person) NewPerson(initialAge int) person {
 	return p
 }
 
-func (p person) amIOld() string {
+func (p person) amIOldLogic() string {
 	//Do some computation in here and print out the correct statement to the console
 	str := ""
 	if p.age < 0 {
@@ -37,6 +37,11 @@ func (p person) amIOld() string {
 		str = "You are old."
 	}
 	return str
+}
+
+func (p person) amIOld() {
+	//Do some computation in here and print out the correct statement to the console
+	fmt.Println(p.amIOldLogic())
 }
 
 func (p person) yearPasses() person {
@@ -54,11 +59,11 @@ func main() {
 		fmt.Scan(&age)
 		p := person{age: age}
 		p = p.NewPerson(age)
-		fmt.Println(p.amIOld())
+		p.amIOld()
 		for j := 0; j < 3; j++ {
 			p = p.yearPasses()
 		}
-		fmt.Println(p.amIOld())
+		p.amIOld()
 		fmt.Println()
 	}
 }
