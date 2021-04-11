@@ -9,6 +9,10 @@ import (
 	"strings"
 )
 
+func solve(n int, i int) string {
+	return fmt.Sprintf("%d x %d = %d", n, i, n*i)
+}
+
 func main() {
 	reader := bufio.NewReaderSize(os.Stdin, 1024*1024)
 
@@ -16,7 +20,7 @@ func main() {
 	checkError(err)
 	n := int(nTemp)
 	for i := 1; i < 11; i++ {
-		fmt.Printf("%d x %d = %d\n", n, i, n*i)
+		fmt.Printf("%s\n", solve(n, i))
 	}
 }
 
