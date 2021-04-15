@@ -3,6 +3,7 @@ package main
 
 import (
 	"bufio"
+	"bytes"
 	"fmt"
 	"os"
 	"strings"
@@ -13,11 +14,16 @@ const (
 	ODD
 )
 
-func print(oddOrEven int, words string) {
+func splitEvenNOdd(oddOrEven int, words string) string {
+	var buffer = bytes.NewBufferString("")
 	for i := oddOrEven; i < len(words); i += 2 {
-		fmt.Printf("%c", words[i])
+		buffer.WriteByte(words[i])
 	}
-	fmt.Print(" ")
+	return buffer.String() + " "
+}
+
+func print(oddOrEven int, words string) {
+	fmt.Print(splitEvenNOdd(oddOrEven, words))
 }
 
 func main() {
