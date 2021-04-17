@@ -8,7 +8,15 @@ import random
 import re
 import sys
 
-
+def solve(str):
+  first = ""
+  second = ""
+  for j in range(0, len(str)):
+    if j%2 == 0:
+      first += str[j]
+    else:
+      second += str[j]
+  return first, second;
 
 if __name__ == '__main__':
     T = int(input())
@@ -17,11 +25,5 @@ if __name__ == '__main__':
       Slist.append(input())
 
     for i in range(0, T):
-      first = ""
-      second = ""
-      for j in range(0, len(Slist[i])):
-        if j%2 == 0:
-          first += Slist[i][j]
-        else:
-          second += Slist[i][j]
+      first, second = solve(Slist[i])
       print("{} {}".format(first,second))
