@@ -99,7 +99,9 @@
     "numbers": "cpp",
     "ranges": "cpp",
     "stop_token": "cpp",
-    "filesystem": "cpp"
+    "filesystem": "cpp",
+    "hash_map": "cpp",
+    "semaphore": "cpp"
   },
   "C_Cpp.errorSquiggles": "Disabled",
   "python.testing.pytestArgs": [
