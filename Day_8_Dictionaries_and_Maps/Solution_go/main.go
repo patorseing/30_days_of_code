@@ -75,10 +75,15 @@ func main() {
 			break
 		}
 
-		if value, ok := phoneBook[key]; ok {
-			fmt.Printf("%s=%d\n", key, value)
-		} else {
-			fmt.Println("Not found")
-		}
+		fmt.Println(findPhoneBook(phoneBook, key))
+	}
+}
+
+func findPhoneBook(phoneBook map[string]int, name string) string {
+	if value, ok := phoneBook[name]; ok {
+		s := fmt.Sprintf("%s=%d", name, value)
+		return s
+	} else {
+		return "Not found"
 	}
 }
