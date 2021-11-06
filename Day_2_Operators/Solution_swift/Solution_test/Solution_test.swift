@@ -22,7 +22,6 @@ class Solution_test: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         XCTAssertEqual(solve(meal_cost: 12.00, tip_percent: 20, tax_percent: 8), 15)
-        
     }
 
     func testPerformanceExample() throws {
