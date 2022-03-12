@@ -11,6 +11,7 @@
 * [Apple Swift version 5.3](##-for-Swift)
 * [go version go1.15.2 darwin/amd64](##-for-Go)
 * [Rust](##-for-Rust)
+* [Ruby](##-for-Ruby)
 
 ## for C/C++
 
@@ -153,3 +154,13 @@ cargo test
 ```
 
 <https://learning-rust.github.io/docs/a1.why_rust.html>
+
+## for Ruby
+
+[<< Back](##-Spec)
+
+```bash
+code Solution.rb
+
+ruby Solution.rb
+```
