@@ -6,4 +6,5 @@
 [✓] python\
 [✓] go\
 [✓] rust\
-[✓] swift
+[✓] swift\
+[✓] ruby
